@@ -1,15 +1,17 @@
-
 package Chapter7;
 
 import java.util.Scanner;
 
 /**
  * Shows students' test scores and grades
+ *
  * @author Bali Ong
  */
 public class C7_1 {
-        public static int best = 0;
-/**
+
+    public static int best = 0;
+
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
@@ -37,13 +39,15 @@ public class C7_1 {
 
         }
     }
+
     /**
-     * fillArray puts the students scores in an array and checks to see which is the highest
+     * fillArray puts the students scores in an array and checks to see which is
+     * the highest
      *
-     * @param scores holds the scores 
+     * @param scores holds the scores
      * @param input scanner
      */
-            public static void fillArray(int scores[], Scanner input) {
+    public static void fillArray(int scores[], Scanner input) {
 
         for (int i = 0; i < scores.length; i++) {
             scores[i] = input.nextInt();
